@@ -1,6 +1,6 @@
 {
   "name": "@gaqno-dev/ui",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -11,6 +11,8 @@
     ".": "./src/index.ts",
     "./components": "./src/components/index.ts",
     "./components/providers": "./src/components/providers/index.ts",
+    "./components/guards": "./src/components/guards/index.ts",
+    "./components/layout": "./src/components/layout/index.ts",
     "./components/ui": "./src/components/ui/index.ts",
     "./components/ui/*": "./src/components/ui/*",
     "./components/*": "./src/components/*",
@@ -36,7 +38,7 @@
     "@radix-ui/react-toast": "^1.2.15",
     "@radix-ui/react-toggle": "^1.1.10",
     "@radix-ui/react-tooltip": "^1.2.8",
-    "@gaqno-dev/core": "^1.0.0",
+    "@gaqno-dev/core": "^1.0.5",
     "@tanstack/react-table": "^8.21.3",
     "axios": "^1.13.2",
     "class-variance-authority": "^0.7.1",
@@ -50,7 +52,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@gaqno-dev/config": "^1.0.0",
+    "@gaqno-dev/config": "^1.0.5",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3"
   }
