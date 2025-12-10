@@ -1,4 +1,4 @@
-import { UserRole, FeatureModule, FeaturePermissionLevel } from '@repo/core/types/user'
+import { UserRole, FeatureModule, FeaturePermissionLevel } from '@gaqno-dev/core/types/user'
 import { LucideIcon } from 'lucide-react'
 
 export interface ISidebarItem {

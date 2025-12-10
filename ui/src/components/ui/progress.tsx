@@ -3,7 +3,7 @@
 import * as React from "react"
 import * as ProgressPrimitive from "@radix-ui/react-progress"
 
-import { cn } from "@repo/core/lib/utils"
+import { cn } from "@gaqno-dev/core/lib/utils"
 
 const Progress = React.forwardRef<
   React.ElementRef<typeof ProgressPrimitive.Root>,

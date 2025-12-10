@@ -1,6 +1,6 @@
 import React from 'react'
 import { Slot } from '@radix-ui/react-slot'
-import { cn } from '@repo/core/lib/utils'
+import { cn } from '@gaqno-dev/core/lib/utils'
 import { IButtonProps } from './types'
 import { useButton } from './hooks/useButton'
 import { buttonVariants } from './variants'

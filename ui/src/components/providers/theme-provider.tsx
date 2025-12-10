@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
-import { useUIStore } from '@repo/core/store';
+import { useUIStore } from '@gaqno-dev/core/store';
 
 const THEME_STORAGE_KEY = 'theme'
 

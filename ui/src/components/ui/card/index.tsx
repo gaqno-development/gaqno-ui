@@ -1,5 +1,5 @@
 import React from 'react'
-import { cn } from '@repo/core/lib/utils'
+import { cn } from '@gaqno-dev/core/lib/utils'
 
 export const Card = React.forwardRef<
   HTMLDivElement,

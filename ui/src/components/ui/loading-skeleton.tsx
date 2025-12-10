@@ -3,7 +3,7 @@
 import React from 'react'
 import { Skeleton } from './skeleton'
 import { Card, CardContent, CardHeader } from './card'
-import { cn } from '@repo/core/lib/utils'
+import { cn } from '@gaqno-dev/core/lib/utils'
 
 interface ILoadingSkeletonProps {
   variant?: 'card' | 'list' | 'table' | 'text'

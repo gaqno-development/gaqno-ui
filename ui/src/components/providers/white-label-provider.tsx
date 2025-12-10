@@ -1,8 +1,8 @@
 'use client'
 
 import React, { useEffect } from 'react'
-import { useWhiteLabel } from '@repo/core/hooks';
-import { applyWhiteLabelStyles } from '@repo/core/utils'
+import { useWhiteLabel } from '@gaqno-dev/core/hooks';
+import { applyWhiteLabelStyles } from '@gaqno-dev/core/utils'
 
 export const WhiteLabelProvider: React.FC<{
   children: React.ReactNode

@@ -2,10 +2,10 @@
 
 import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'
-import { FeatureModule, FeaturePermissionLevel } from '@repo/core/types/user'
-import { useHasFeatureRole } from '@repo/core/hooks/usePermissions'
-import { useAuth } from '@repo/core/hooks/useAuth'
-import { formatFeatureLabel } from '@repo/core/lib/permissions'
+import { FeatureModule, FeaturePermissionLevel } from '@gaqno-dev/core/types/user'
+import { useHasFeatureRole } from '@gaqno-dev/core/hooks/usePermissions'
+import { useAuth } from '@gaqno-dev/core/hooks/useAuth'
+import { formatFeatureLabel } from '@gaqno-dev/core/lib/permissions'
 
 interface IFeatureGuardProps {
   feature: FeatureModule

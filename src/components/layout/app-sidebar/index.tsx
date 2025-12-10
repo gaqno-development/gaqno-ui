@@ -27,7 +27,7 @@ import {
 } from '../../ui/dropdown-menu'
 import { useAppSidebar } from './hooks/useAppSidebar'
 import { ISidebarItem } from './types'
-import { useWhiteLabel } from '@repo/core/hooks/useWhiteLabel'
+import { useWhiteLabel } from '@gaqno-dev/core/hooks/useWhiteLabel'
 
 export const AppSidebar: React.FC = () => {
     const { menuItems, isActive } = useAppSidebar()

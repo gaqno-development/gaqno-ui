@@ -2,8 +2,8 @@
 
 import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'
-import { useIsRootAdmin } from '@repo/core/hooks/usePermissions'
-import { useAuth } from '@repo/core/hooks/useAuth'
+import { useIsRootAdmin } from '@gaqno-dev/core/hooks/usePermissions'
+import { useAuth } from '@gaqno-dev/core/hooks/useAuth'
 
 interface IRootAdminGuardProps {
   children: React.ReactNode

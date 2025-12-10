@@ -3,7 +3,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { ChevronRight, Home } from 'lucide-react'
-import { cn } from '@repo/core/lib/utils'
+import { cn } from '@gaqno-dev/core/lib/utils'
 
 interface IBreadcrumbItem {
   label: string

@@ -4,7 +4,7 @@ import React from 'react'
 import { LucideIcon } from 'lucide-react'
 import { Button } from './button'
 import { Card, CardContent } from './card'
-import { cn } from '@repo/core/lib/utils'
+import { cn } from '@gaqno-dev/core/lib/utils'
 
 interface IEmptyStateProps {
   icon?: LucideIcon

@@ -1,1 +1,1 @@
-export * from '@repo/core/contexts';
+export * from '@gaqno-dev/core/contexts';
