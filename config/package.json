@@ -1,7 +1,10 @@
 {
-  "name": "@repo/config",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@gaqno-dev/config",
+  "version": "1.0.0",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     "./eslint": "./eslint.config.mjs",
     "./tailwind": "./tailwind.config.ts",
