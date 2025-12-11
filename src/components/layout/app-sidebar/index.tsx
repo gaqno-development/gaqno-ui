@@ -27,7 +27,7 @@ import {
 } from '../../ui/dropdown-menu'
 import { useAppSidebar } from './hooks/useAppSidebar'
 import { ISidebarItem } from './types'
-import { useWhiteLabel } from '@gaqno-dev/core/hooks/useWhiteLabel'
+import { useWhiteLabel } from '@gaqno-dev/core'
 
 export const AppSidebar: React.FC = () => {
     const { menuItems, isActive } = useAppSidebar()
@@ -113,7 +113,7 @@ export const AppSidebar: React.FC = () => {
             }
 
             return (
-                <Collapsible key={item.label} defaultOpen className="group/collapsible">
+                <Collapsible key={item.label} className="group/collapsible">
                     <SidebarGroup className="p-0">
                         <SidebarGroupLabel asChild className="px-2">
                             <CollapsibleTrigger
@@ -184,7 +184,8 @@ export const AppSidebar: React.FC = () => {
         <Sidebar collapsible="icon">
             <SidebarContent>
                 <SidebarGroup>
-                    <SidebarGroupLabel>
+                    <SidebarGroupLabel className="flex items-center justify-center">
+                        <Image src={whiteLabel?.logo_url || '/logo.png'} alt="Logo" width={100} height={100} />
                         <h1 className="text-xl font-bold mb-4">
                             {whiteLabel?.company_name || 'Sistema'}
                         </h1>
