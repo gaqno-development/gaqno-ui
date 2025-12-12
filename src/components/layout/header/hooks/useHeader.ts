@@ -18,7 +18,8 @@ export const useHeader = () => {
   }, [pathname])
 
   // Get branding config for the tenant being viewed (if any)
-  const { brandingConfig: viewedTenantBranding } = useBranding(tenantIdFromPath || '')
+  // Only fetch when tenantIdFromPath is truthy, pass empty string which will be disabled by enabled: !!tenantId
+  const { brandingConfig: viewedTenantBranding } = useBranding(tenantIdFromPath ?? '')
 
   // Use viewed tenant branding if we're on a tenant details page, otherwise use global config
   const displayConfig = tenantIdFromPath && viewedTenantBranding ? viewedTenantBranding : whiteLabelConfig
