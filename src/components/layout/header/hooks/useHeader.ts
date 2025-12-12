@@ -1,8 +1,8 @@
 import { useRouter, usePathname } from 'next/navigation'
-import { useAuth } from '@gaqno-dev/core/hooks/useAuth'
-import { useWhiteLabel } from '@gaqno-dev/core/hooks/useWhiteLabel'
-import { useBranding } from '@gaqno-dev/core/hooks/admin/useBranding'
-import { ROUTES } from '@gaqno-dev/core/lib/constants'
+import { useAuth } from '@gaqno-dev/frontcore/hooks/useAuth'
+import { useWhiteLabel } from '@gaqno-dev/frontcore/hooks/useWhiteLabel'
+import { useBranding } from '@gaqno-dev/frontcore/hooks/admin/useBranding'
+import { ROUTES } from '@gaqno-dev/frontcore/lib/constants'
 import { useMemo } from 'react'
 
 export const useHeader = () => {

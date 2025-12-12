@@ -1,5 +1,5 @@
 import * as React from "react"
-import { cn } from "@gaqno-dev/core/lib/utils"
+import { cn } from "@gaqno-dev/frontcore/lib/utils"
 
 const ScrollArea = React.forwardRef<
   HTMLDivElement,

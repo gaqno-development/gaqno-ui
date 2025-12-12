@@ -1,5 +1,5 @@
 import React from 'react'
-import { cn } from '@gaqno-dev/core/lib/utils'
+import { cn } from '@gaqno-dev/frontcore/lib/utils'
 import { IInputProps } from './types'
 import { useInput } from './hooks/useInput'
 

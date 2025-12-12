@@ -14,8 +14,6 @@
     "./components/guards": "./src/components/guards/index.ts",
     "./components/layout": "./src/components/layout/index.ts",
     "./components/ui": "./src/components/ui/index.ts",
-    "./components/ui/*": "./src/components/ui/*",
-    "./components/*": "./src/components/*",
     "./contexts": "./src/contexts/index.ts",
     "./styles": "./src/globals.css"
   },
@@ -23,7 +21,7 @@
     "next": "^13.0.0 || ^14.0.0"
   },
   "dependencies": {
-    "@gaqno-dev/core": "^1.0.29",
+    "@gaqno-dev/frontcore": "^1.0.1",
     "@radix-ui/react-alert-dialog": "^1.1.15",
     "@radix-ui/react-avatar": "^1.1.11",
     "@radix-ui/react-checkbox": "^1.3.3",
@@ -55,7 +53,6 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@gaqno-dev/config": "^1.0.5",
     "@types/react": "^18.3.27",
     "@types/react-dom": "^18.3.7"
   }

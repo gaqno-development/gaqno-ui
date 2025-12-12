@@ -1,5 +1,5 @@
 {
-  "extends": "@gaqno-dev/config/tsconfig.json",
+  "extends": "@gaqno-dev/frontcore/config/typescript",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

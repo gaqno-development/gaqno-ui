@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ChevronDown } from 'lucide-react'
 import {
     Sidebar,
@@ -27,7 +28,7 @@ import {
 } from '../../ui/dropdown-menu'
 import { useAppSidebar } from './hooks/useAppSidebar'
 import { ISidebarItem } from './types'
-import { useWhiteLabel } from '@gaqno-dev/core'
+import { useWhiteLabel } from '@gaqno-dev/frontcore'
 
 export const AppSidebar: React.FC = () => {
     const { menuItems, isActive } = useAppSidebar()

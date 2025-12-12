@@ -10,10 +10,10 @@ import {
   Wrench,
   BookOpen,
 } from 'lucide-react'
-import { FeatureModule, FeaturePermissionLevel } from '@gaqno-dev/core/types/user'
+import { FeatureModule, FeaturePermissionLevel } from '@gaqno-dev/frontcore/types/user'
 import { ISidebarItem } from '../types'
-import { usePermissions } from '@gaqno-dev/core/hooks/usePermissions'
-import { useTenant } from '@gaqno-dev/core/contexts'
+import { usePermissions } from '@gaqno-dev/frontcore/hooks/usePermissions'
+import { useTenant } from '@gaqno-dev/frontcore/contexts'
 
 export const useAppSidebar = () => {
   const pathname = usePathname()
